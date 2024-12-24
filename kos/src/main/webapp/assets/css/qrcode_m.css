@@ -1,0 +1,125 @@
+.kiosk-1-2,
+.kiosk-1-2 * {
+  box-sizing: border-box;
+}
+.kiosk-1-2 {
+  background: #ffffff;
+  height: 1696.91px;
+  position: relative;
+  overflow: hidden;
+}
+.kiosk-1-2__rectangle-4 {
+  background: #007BFF;
+  border-radius: 25px; /* R 값 수정 (원하는 값으로 변경) */
+  width: 877.71px;
+  height: 117.03px;
+  position: absolute;
+  left: 73.14px;
+  top: 1536px;
+}
+.kiosk-1-2__div {
+  width: 102.4px;
+  height: 70.22px;
+  position: absolute;
+  left: 459.34px;
+  top: 1559.41px;
+}
+.kiosk-1-2__div2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Medium", sans-serif;
+  font-size: 58px;
+  font-weight: 500;
+  position: absolute;
+  right: 0.39%;
+  left: 0%;
+  width: 99.61%;
+  bottom: 0.31%;
+  top: 0%;
+  height: 99.69%;
+  letter-spacing: -7px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+  text-decoration: none; /* 밑줄 없애기 */
+}
+.kiosk-1-2__qr {
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 87.77143096923828px;
+  font-weight: 700;
+  position: absolute;
+  right: 9.01%;
+  left: 8.57%;
+  width: 82.42%;
+  bottom: 77.26%;
+  top: 16.55%;
+  height: 6.19%;
+}
+.qr-span {
+  color: #007BFF;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.qr-span2 {
+  color: #000000;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: -12px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-2__qr2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  right: 20.32%;
+  left: 19.71%;
+  width: 59.96%;
+  bottom: 64.16%;
+  top: 27.59%;
+  height: 8.25%;
+  letter-spacing: -8px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-2__qr-1 {
+  width: 596.85px;
+  height: 596.85px;
+  position: absolute;
+  left: calc(50% - 298.42px);
+  top: 675.84px;
+  object-fit: cover;
+}
+.kiosk-1-2__group-4 {
+  width: 219.43px;
+  height: 111.18px;
+  position: absolute;
+  left: calc(50% - 108.25px);
+  top: 1307.79px;
+}
+.kiosk-1-2__rectangle-16 {
+  background: #000000;
+  border-radius: 14.63px;
+  width: 100%;
+  height: 52.63%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 47.37%;
+  top: 0%;
+}
+.kiosk-1-2__div3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  position: absolute;
+  right: 14.73%;
+  left: 16%;
+  width: 69.27%;
+  bottom: 47.96%;
+  top: 0%;
+  height: 46.77%;
+  letter-spacing: -7px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}

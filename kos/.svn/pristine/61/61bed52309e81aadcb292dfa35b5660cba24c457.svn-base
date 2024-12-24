@@ -1,0 +1,90 @@
+.kiosk-1-1,
+.kiosk-1-1 * {
+  box-sizing: border-box;
+}
+.kiosk-1-1 {
+  background: #ffffff;
+  height: 1696px; /* 변경된 높이 */
+  position: relative;
+  overflow: hidden;
+}
+.kiosk-1-1__rectangle-4 {
+  background: #C0C0C0;
+  width: 700px; /* 버튼 너비 조정 (더 크게) */
+  height: 100px; /* 버튼 높이 조정 (더 크게) */
+  display: flex;
+  align-items: center; /* 세로 가운데 정렬 */
+  justify-content: center; /* 가로 가운데 정렬 */
+  color: #000000; /* 글자 색상 */
+  text-align: center;
+  font-family: "Pretendard-Medium", sans-serif;
+  font-size: 40px; /* 글자 크기 조정 (더 크게) */
+  font-weight: bold; /* 글씨 두께를 bold로 변경 */
+  position: absolute;
+  left: 50%; /* 가운데 정렬 */
+  top: 1536px; /* 위치 조정 필요 */
+  transform: translate(-50%, -50%); /* 가운데 정렬 */
+  text-decoration: none; /* 밑줄 제거 */
+  border-radius: 15px; /* 사각형 모서리에 둥근 값 추가 */
+}
+
+
+.kiosk-1-1__qr {
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 88px; /* 변경된 폰트 크기 */
+  font-weight: 700;
+  position: absolute;
+  right: 10%;
+  left: 9%;
+  width: 82%;
+  bottom: 76%;
+  top: 17%;
+  height: 6%;
+}
+.qr-span {
+  color: #007BFF;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 70px; /* 변경된 폰트 크기 */
+  font-weight: 700;
+}
+.qr-span2 {
+  color: #000000;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 70px; /* 변경된 폰트 크기 */
+  font-weight: 700;
+}
+.kiosk-1-1__qr2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 48px; /* 변경된 폰트 크기 */
+  font-weight: 700;
+  position: absolute;
+  right: 12%;
+  left: 12%;
+  width: 76%;
+  bottom: 64%;
+  top: 28%;
+  height: 8%;
+}
+.kiosk-1-1__image-3 {
+  width: 484px; /* 변경된 너비 */
+  height: 694px; /* 변경된 높이 */
+  position: absolute;
+  left: 270px; /* 변경된 위치 */
+  top: 700px; /* 변경된 위치 */
+  object-fit: cover;
+}
+.kiosk-1-1__ellipse-5 {
+  background: rgba(174, 32, 42, 0);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ae202a;
+  border-width: 6px; /* 변경된 두께 */
+  width: 152px; /* 변경된 너비 */
+  height: 152px; /* 변경된 높이 */
+  position: absolute;
+  left: 591px; /* 변경된 위치 */
+  top: 1214px; /* 변경된 위치 */
+}

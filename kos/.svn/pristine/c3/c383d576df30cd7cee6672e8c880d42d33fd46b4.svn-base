@@ -1,0 +1,736 @@
+body {
+    margin: 0;
+    position: relative;  /* body에 relative 위치 지정 */
+}
+
+.custom-box {
+    width: 227px; /* 버튼 너비와 동일하게 설정 */
+    height: 149px;
+    flex-shrink: 0;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #000;
+    background: rgba(217, 217, 217, 0.0);
+    box-shadow: 3px 3px 12px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 58px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 로고를 중앙에 배치 */
+}
+
+.button-container {
+    margin-top: 44px; /* custom-box 아래로 44px 떨어지도록 설정 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 버튼을 왼쪽 정렬 */
+}
+
+.custom-button {
+    width: 227px; /* 버튼 너비 */
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 0; /* 기본 설정: 각진 버튼 */
+    border: 1px solid #000;
+    background-color: #fff; /* 버튼 배경색을 흰색으로 설정 */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    font-size: 28px; /* 글씨 크기 설정 */
+    font-family: 'Pretendard', sans-serif; /* 폰트 설정 */
+    font-weight: 600; /* 세미볼드 설정 */
+    cursor: pointer;
+    margin: 0; /* 버튼 간격 제거 */
+    color: #AFAFAF; /* 기본 글씨 색 설정 */
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; /* 텍스트와 아이콘을 왼쪽 정렬 */
+    padding: 0 10px; /* 텍스트와 아이콘 사이에 약간의 간격 추가 */
+    transition: color 0.3s; /* 글씨 색 변경 시 전환 효과 추가 */
+}
+
+.custom-button, .callbox, .additional-button {
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+/* 버튼 내부의 아이콘 스타일 */
+.custom-button img {
+    margin-right: 10px; /* 아이콘과 텍스트 사이에 간격 추가 */
+    vertical-align: middle; /* 아이콘을 텍스트 중간에 맞춤 */
+}
+
+/* 첫 번째 버튼의 오른쪽 위 모서리에 반지름 값 적용 */
+.custom-button:first-child {
+    border-top-right-radius: 15px;
+}
+
+/* 다섯 번째 버튼의 오른쪽 아래 모서리에 반지름 값 적용 */
+.custom-button:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+/* 버튼 클릭 시 글씨 색 변경 */
+.custom-button:active {
+    color: #000000; /* 클릭 시 글씨 색을 검은색으로 변경 */
+}
+
+.cartbox {
+    width: 227px;
+    height: 470px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 3px 3px 12px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 14px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.remove-item {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #ff0000;  /* X 버튼 색상 */
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.remove-item:hover {
+    color: #000000;  /* 마우스 오버 시 색상 변경 */
+}
+
+
+/* callbox 버튼 스타일 */
+.callbox {
+    width: 190px; /* 너비 설정 */
+    height: 205px; /* 높이 설정 */
+    flex-shrink: 0;
+    border-radius: 15px 15px 0 0; /* 모서리 반지름 값 설정 */
+    border: 1px solid #000; /* 테두리 설정 */
+    background: rgba(217, 217, 217, 0); /* 배경색 설정 */
+    box-shadow: 3px 3px 12px 3px rgba(0, 0, 0, 0.25); /* 그림자 설정 */
+    margin-left: 64px; /* 왼쪽으로 64px 떨어지도록 설정 */
+    margin-top: 196px; /* cartbox 아래로 196px 떨어지도록 설정 */
+    display: flex; /* 아이콘과 텍스트를 나란히 배치 */
+    flex-direction: column; /* 아이콘과 텍스트를 세로로 배치 */
+    align-items: center; /* 아이콘과 텍스트를 수직 가운데 정렬 */
+    justify-content: center; /* 아이콘과 텍스트를 가로 가운데 정렬 */
+    padding: 10px; /* 내부 패딩 추가 */
+    cursor: pointer; /* 커서 포인터 추가 */
+}
+
+.callbox img {
+    margin-bottom: 10px; /* 아이콘과 텍스트 사이 간격 추가 */
+}
+
+.callbox span {
+    font-size: 16px; /* 텍스트 크기 설정 */
+    font-family: 'Pretendard', sans-serif; /* 폰트 설정 */
+    font-weight: 600; /* 세미볼드 설정 */
+    color: #000000; /* 텍스트 색을 검은색으로 설정 */
+}
+
+.medicine-cat {
+    color: #000; /* 텍스트 색상 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    font-family: 'Pretendard'; /* 폰트 설정 */
+    font-size: 73px; /* 글씨 크기 설정 */
+    font-style: normal; /* 폰트 스타일 설정 */
+    font-weight: 600; /* 폰트 굵기 설정 */
+    line-height: normal; /* 줄 간격 설정 */
+    position: absolute; /* 위치 절대 설정 */
+    top: 58px; /* 위쪽에서 58px 떨어지도록 설정 */
+    left: 275px; /* 왼쪽에서 275px 떨어지도록 설정 */
+}
+
+.submenu-info {
+    color: #000; /* 텍스트 색상 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    font-family: 'Pretendard'; /* 폰트 설정 */
+    font-size: 29px; /* 글씨 크기 설정 (소수점 제거) */
+    font-style: normal; /* 폰트 스타일 설정 */
+    font-weight: 300; /* 폰트 굵기 설정 */
+    line-height: normal; /* 줄 간격 설정 */
+    position: absolute; /* 위치 절대 설정 */
+    top: 172px; /* 위쪽에서 85px + 27px = 112px 떨어지도록 설정 */
+    left: 280px; /* 왼쪽에서 280px 떨어지도록 설정 */
+}
+
+.circle-button {
+    width: 82px; /* 소수점 제거한 너비 */
+    height: 82px; /* 소수점 제거한 높이 */
+    flex-shrink: 0;
+    border-radius: 50%; /* 원형으로 만들기 */
+    background-color: #fff; /* 버튼 배경색을 흰색으로 설정 */
+    border: 1px solid #000; /* 테두리 두께와 색상 설정 */
+    position: absolute; /* 위치 절대 설정 */
+    top: 58px; /* 위쪽에서 58px 떨어지도록 설정 */
+    right: 86px; /* 오른쪽에서 86px 떨어지도록 설정 */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 중앙 정렬 */
+    cursor: pointer; /* 커서 포인터 추가 */
+}
+
+.circle-image {
+    width: 50px; /* SVG 이미지 너비 (필요에 따라 조정 가능) */
+    height: 50px; /* SVG 이미지 높이 (필요에 따라 조정 가능) */
+}
+
+.additional-button {
+    width: 146px; /* 소수점 제거한 너비 */
+    height: 59px; /* 소수점 제거한 높이 */
+    flex-shrink: 0;
+    border-radius: 146px; /* 소수점 제거한 반지름 */
+    border: 1px solid #000; /* 소수점 제거한 테두리 두께 */
+    background: rgba(217, 217, 217, 0.00); /* 배경색 설정 */
+    position: absolute; /* 위치 절대 설정 */
+    top: 260px; /* "아래에서 세부메뉴를 확인하세요" 텍스트 밑으로 40px 떨어지도록 설정 */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 중앙 정렬 */
+    cursor: pointer; /* 커서 포인터 추가 */
+    font-family: 'Pretendard'; /* 폰트 설정 */
+    font-size: 20px; /* 텍스트 크기 설정 */
+    color: #000; /* 텍스트 색상 설정 */
+}
+
+.button-1 {
+    left: 280px; /* 첫 번째 버튼의 위치 */
+}
+
+.button-2 {
+    left: 446px; /* 두 번째 버튼의 위치 (280px + 146px + 20px) */
+}
+
+.button-3 {
+    left: 612px; /* 세 번째 버튼의 위치 (446px + 146px + 20px) */
+}
+
+.button-4 {
+    left: 778px; /* 네 번째 버튼의 위치 (612px + 146px + 20px) */
+}
+
+
+.price-container {
+    position: absolute; /* 위치 절대 설정 */
+    top: 1460px; /* 추가할 div의 위쪽 위치 */
+    left: 398px; /* 추가할 div의 왼쪽 위치 */
+    display: flex; /* flexbox를 사용하여 이미지와 텍스트를 나란히 배치 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.positioned-svg {
+    margin-right: 10px; /* 이미지와 텍스트 사이 간격 추가 */
+}
+
+.price-text {
+    color: #000; /* 텍스트 색상 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    font-family: 'Pretendard'; /* 폰트 설정 */
+    font-size: 29px; /* 글씨 크기 설정 */
+    font-style: normal; /* 폰트 스타일 설정 */
+    font-weight: 600; /* 폰트 굵기 설정 */
+    line-height: normal; /* 줄 간격 설정 */
+}
+
+
+.itembox-container {
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    gap: 60px; /* 박스 간 간격 60px */
+    position: absolute;
+    top: 382px; /* 위에서 382px */
+    left: 280px; /* 왼쪽에서 280px */
+}
+
+.itembox-row {
+    display: flex;
+    gap: 40px; /* 각 박스 간 40px 간격 */
+}
+
+.itembox {
+    width: 190px; /* 너비 */
+    height: 260px; /* 높이 */
+    background-color: #ffffff; /* 박스 배경색 */
+    border: 1px solid #ccc; /* 테두리 */
+    border-radius: 10px; /* 둥근 모서리 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    align-items: flex-start; /* 좌측 정렬 */
+    justify-content: space-between; /* 위아래 간격 */
+    padding: 10px;
+}
+
+.item-image {
+    width: 100%; /* 박스 너비에 맞춤 */
+    height: auto; /* 이미지 비율 유지 */
+    border-radius: 8px; /* 이미지 둥글게 */
+    margin-top: 10px; /* 이미지 상단에 10px 공간 추가 */
+}
+
+.item-details {
+    text-align: left; /* 좌측 정렬 */
+    width: 100%; /* 부모 요소 너비만큼 사용 */
+    padding-left: 10px; /* 좌측 여백 */
+    margin-top: 10px;
+}
+
+.item-name {
+    display: block;
+    font-size: 20px; /* 상품 이름 크기 */
+    font-weight: bold;
+    color: #333; /* 텍스트 색상 */
+    margin-bottom: 5px; /* 이름과 가격 간격 */
+}
+
+.item-price {
+    display: block;
+    font-size: 16px; /* 가격 크기 */
+    color: #666; /* 가격 색상 */
+}
+
+
+.gocart {
+    width: 258px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 0.293px solid #000;
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 1.5px 1.5px 6px 1px rgba(0, 0, 0, 0.15);
+    position: absolute;  /* 부모 요소를 기준으로 위치 */
+    left: 670px;
+    bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: Pretendard, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.help-box {
+    width: 248px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 0.293px solid #000;
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 1.5px 1.5px 6px 1px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 670px;
+    bottom: 80px;  /* gocart 박스와 18px 간격 */
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center;     /* 수직 중앙 정렬 */
+    padding-left: 10px;      /* 왼쪽 여백 */
+}
+
+.help-icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;  /* 이미지와 텍스트 간 간격 */
+}
+
+.help-text {
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.gohome {
+    width: 248px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 0.293px solid #000;
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 1.5px 1.5px 6px 1px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 350px;  /* 670px에서 38px 빼기 */
+    bottom: 80px;  /* 기존 help-box와 동일한 위치 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.gohome span {
+    color: #000;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.help-box, .gohome, .itembox, .gocart {
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+.allergy-text {
+    position: absolute;
+    bottom: 40px; /* 밑에서 40px 떨어짐 */
+    left: 386px; /* 왼쪽에서 386px 떨어짐 */
+    color: #000;
+    text-align: center;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+    position: fixed;
+    bottom: -1254px; /* 화면 바닥 아래로 숨겨짐 */
+    left: 50%;
+    transform: translateX(-50%); /* 수평 중앙 정렬 */
+    width: 100%; /* 기본 너비를 100%로 설정 */
+    height: 1254px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    transition: bottom 0.5s ease-in-out, width 0.5s ease-in-out;
+    overflow: hidden; /* 내용이 넘칠 경우 숨김 처리 */
+    border-top-left-radius: 140px; /* 위 왼쪽 모서리 둥글게 */
+    border-top-right-radius: 140px; /* 위 오른쪽 모서리 둥글게 */
+}
+
+
+
+.sidebar.expanded {
+    bottom: 0; /* 화면 위로 올라오기 */
+}
+
+/* 사이드바 콘텐츠 스타일 */
+.sidebar-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;  /* 가로로 중앙 배치 */
+    align-items: flex-start;  /* 세로로 상단에 배치 */
+    flex-direction: column;   /* 세로로 요소 배치 */
+    height: 100%;  /* 사이드바 콘텐츠가 화면에 꽉 차게 */
+    position: relative;  /* 사이드바 내부의 상대적 배치 */
+}
+
+/* 사이드바 닫기 버튼 스타일 */
+.sidebar-close-btn {
+    width: 247px; /* 너비 */
+    height: 145px; /* 높이 */
+    background-color: #F3F3F3; /* 배경색 */
+    flex-shrink: 0; /* 크기 축소 방지 */
+    position: absolute; /* 절대 위치로 설정 */
+    top: 0; /* 맨 위에 배치 */
+    left: 50%; /* 수평 중앙 정렬 */
+    transform: translateX(-50%); /* 정확히 중앙에 오도록 이동 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    z-index: 10; /* 다른 요소보다 위에 배치 */
+    border-radius: 0 0 50px 50px; /* 아래 두 모서리만 둥글게 처리 */
+    display: flex;
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+}
+
+.close-btn-image {
+    width: 43px;
+    height: 43px;
+    object-fit: contain; /* 이미지 비율 유지 */
+}
+
+/* 사이드바 콘텐츠 스타일 */
+.sidebar-content {
+    display: flex;
+    flex-direction: column;  /* 세로로 요소 배치 */
+    justify-content: flex-start;  /* 콘텐츠는 상단부터 배치 */
+    align-items: center;  /* 세로 중앙 정렬 */
+    height: 100%;  /* 부모 컨테이너의 높이를 100%로 채운다 */
+}
+
+/* 사이드바 이미지 컨테이너 스타일 */
+#sidebarImageContainer {
+    margin-top: 150px;  /* 닫기 버튼과 이미지 사이에 공간 */
+    display: flex;
+    justify-content: center;  /* 가로 중앙 정렬 */
+    align-items: center;  /* 세로 중앙 정렬 */
+    flex-direction: column;  /* 이미지와 텍스트를 세로로 배치 */
+}
+
+/* 사이드바 이미지 스타일 */
+.sidebar-image {
+    width: 340px;  /* 이미지 너비 */
+    height: 250px;  /* 이미지 높이 */
+    object-fit: cover;  /* 이미지 비율 맞추기 */
+    border-radius: 10px;  /* 이미지 모서리 둥글게 */
+}
+
+/* 사이드바 이미지 텍스트 스타일 */
+.sidebar-image-text {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px; /* 이미지 아래로 30px 떨어지게 설정 */
+    text-align: center; /* 텍스트 가로 중앙 정렬 */
+}
+
+/* 가격 텍스트 스타일 */
+.sidebar-price {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center; /* 텍스트 가로 중앙 정렬 */
+}
+
+/* 성분 정보, 효능효과, 용법용량에 스크롤을 추가하기 위해 */
+.ingredient-info, .effect-info, .dosage-info {
+    max-height: 250px; /* 텍스트 영역의 최대 높이 (필요에 따라 수정) */
+    overflow-y: auto;  /* 세로 스크롤바 추가 */
+    padding-right: 10px; /* 스크롤 바가 있는 경우, 오른쪽 여백을 주기 위한 설정 */
+    margin-top: 10px; /* 각 섹션 간 간격 */
+}
+
+
+/* 성분 정보 컨테이너 스타일 */
+.ingredient-info {
+    position: absolute;
+    left: 45px;  /* 왼쪽에서 45px 떨어지게 */
+    bottom: 500px;  /* 아래에서 375px 떨어지게 (가격 아래에 위치) */
+}
+
+/* 성분 정보 제목 (성분정보) */
+.ingredient-title {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 29px; /* 소수점 지운 값 */
+    font-style: normal;
+    font-weight: 700; /* 글자 굵기를 500으로 변경 */
+    line-height: normal;
+}
+
+/* 성분 항목 */
+.ingredient-item {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 29px; /* 소수점 지운 값 */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px; /* 각 항목 사이 간격 */
+}
+
+/* 효능효과 정보 컨테이너 스타일 */
+.effect-info {
+    position: absolute;
+    left: 45px;  /* 왼쪽에서 45px 떨어지게 */
+    bottom: 350px;  /* 성분정보 아래에서 60px 떨어지게 위치 */
+}
+
+/* 효능효과 제목 스타일 */
+.effect-title {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 29px; /* 소수점 지운 값 */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* 효능효과 항목 스타일 */
+.effect-item {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 29px; /* 소수점 지운 값 */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px; /* 항목 간 간격 */
+}
+
+/* 용법용량 정보 컨테이너 스타일 */
+.dosage-info {
+    position: absolute;
+    left: 45px;  /* 왼쪽에서 45px 떨어지게 */
+    bottom: 100px;  /* 효능효과 아래에서 20px 떨어지게 위치 */
+}
+
+/* 용법용량 제목 스타일 */
+.dosage-title {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 29px; /* 소수점 지운 값 */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* 용법용량 항목 스타일 */
+.dosage-item {
+    color: #000;
+    font-family: Pretendard, sans-serif;
+    font-size: 29px; /* 소수점 지운 값 */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px; /* 항목 간 간격 */
+}
+
+/* 추가 버튼 스타일 */
+.add-to-cart-btn {
+    width: 80%; /* 버튼의 너비 */
+    height: 50px; /* 버튼 높이 */
+    background-color: #f44336; /* 버튼 배경 색상 */
+    color: white; /* 텍스트 색상 */
+    font-size: 18px; /* 텍스트 크기 */
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; /* 버튼 모서리 둥글게 */
+    margin-top: 20px; /* 버튼과 콘텐츠 사이에 여백 추가 */
+    cursor: pointer;
+}
+
+/* 버튼 hover 시 색상 변경 */
+.add-to-cart-btn:hover {
+    background-color: #e53935;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-btn {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quantity-btn:focus {
+    outline: none;
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.prd-name-container {
+    display: flex;
+    align-items: center;  /* 수평 정렬 */
+    gap: 8px;  /* 상품명과 수량 버튼 사이에 여백 추가 */
+}
+
+.prd-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.quantity-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;  /* 버튼 간의 여백을 줄임 */
+}
+
+.quantity-controls button {
+    padding: 2px 5px;  /* 버튼의 패딩을 더 줄임 */
+    font-size: 16px;  /* 폰트 크기를 더 줄여서 버튼 크기 축소 */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 24px;  /* 버튼의 너비를 더 줄여서 크기를 축소 */
+    text-align: center;
+}
+
+.quantity-controls .quantity {
+    font-size: 14px;  /* 수량 텍스트 크기를 줄임 */
+    padding: 3px;
+    width: 28px;  /* 수량 영역의 너비를 더 줄임 */
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.quantity-controls button:focus {
+    outline: none;
+}
+
+/* 알림창 스타일 */
+.popup {
+    display: none;  /* 기본적으로 보이지 않게 설정 */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* 화면 중앙 정렬 */
+    background-color: rgba(0, 0, 0, 0.7);  /* 반투명 배경 */
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    z-index: 9999;
+}
+
+/* 팝업 내용 스타일 */
+.popup-content {
+    text-align: center;
+    font-size: 32px;
+}
+
+/* 닫기 버튼 스타일 */
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    color: #f44336;
+}

@@ -1,0 +1,111 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --wwwdigimonmasterscom-alabaster: #f9f9f9;
+  --wwwdigimonmasterscom-black: #000000;
+  --wwwdigimonmasterscom-boulder: #757575;
+  --wwwdigimonmasterscom-chathams-blue: #14408b;
+  --wwwdigimonmasterscom-chathams-blue-27: rgba(20, 64, 139, 0.27);
+  --wwwdigimonmasterscom-cod-gray: #111111;
+  --wwwdigimonmasterscom-emperor: #555555;
+  --wwwdigimonmasterscom-manatee: #9398aa;
+  --wwwdigimonmasterscom-mercury: #e6e6e6;
+  --wwwdigimonmasterscom-red: #e40000;
+  --wwwdigimonmasterscom-royal-blue: #1a73e8;
+  --wwwdigimonmasterscom-silver: #bbbbbb;
+  --wwwdigimonmasterscom-tory-blue: #174eaa;
+  --wwwdigimonmasterscom-white: #ffffff;
+  --wwwdigimonmasterscom-white-02: rgba(255, 255, 255, 0);
+  --wwwdigimonmasterscom-white-alabaster: linear-gradient(
+      to left,
+      #f9f9f9,
+      #f9f9f9
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);
+
+  /* Fonts */
+  --wwwdigimonmasterscom-pretendard-medium-17-font-family: Pretendard-Medium,
+    sans-serif;
+  --wwwdigimonmasterscom-pretendard-medium-17-font-size: 17px;
+  --wwwdigimonmasterscom-pretendard-medium-17-line-height: 36px;
+  --wwwdigimonmasterscom-pretendard-medium-17-font-weight: 500;
+  --wwwdigimonmasterscom-pretendard-medium-17-font-style: normal;
+  --wwwdigimonmasterscom-pretendard-regular-12-font-family: Pretendard-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-pretendard-regular-12-font-size: 12px;
+  --wwwdigimonmasterscom-pretendard-regular-12-line-height: normal;
+  --wwwdigimonmasterscom-pretendard-regular-12-font-weight: 400;
+  --wwwdigimonmasterscom-pretendard-regular-12-font-style: normal;
+  --wwwdigimonmasterscom-roboto-regular-13-font-family: Roboto-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-roboto-regular-13-font-size: 13px;
+  --wwwdigimonmasterscom-roboto-regular-13-line-height: 20px;
+  --wwwdigimonmasterscom-roboto-regular-13-font-weight: 400;
+  --wwwdigimonmasterscom-roboto-regular-13-font-style: normal;
+  --wwwdigimonmasterscom-roboto-medium-13-font-family: Roboto-Medium, sans-serif;
+  --wwwdigimonmasterscom-roboto-medium-13-font-size: 13px;
+  --wwwdigimonmasterscom-roboto-medium-13-line-height: 20px;
+  --wwwdigimonmasterscom-roboto-medium-13-font-weight: 500;
+  --wwwdigimonmasterscom-roboto-medium-13-font-style: normal;
+  --wwwdigimonmasterscom-roboto-regular-8-font-family: Roboto-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-roboto-regular-8-font-size: 8px;
+  --wwwdigimonmasterscom-roboto-regular-8-line-height: 20px;
+  --wwwdigimonmasterscom-roboto-regular-8-font-weight: 400;
+  --wwwdigimonmasterscom-roboto-regular-8-font-style: normal;
+  --wwwdigimonmasterscom-semantic-input-font-family: Pretendard-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-input-font-size: 15px;
+  --wwwdigimonmasterscom-semantic-input-line-height: normal;
+  --wwwdigimonmasterscom-semantic-input-font-weight: 400;
+  --wwwdigimonmasterscom-semantic-input-font-style: normal;
+  --wwwdigimonmasterscom-semantic-item-font-family: Pretendard-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-item-font-size: 13px;
+  --wwwdigimonmasterscom-semantic-item-line-height: normal;
+  --wwwdigimonmasterscom-semantic-item-font-weight: 400;
+  --wwwdigimonmasterscom-semantic-item-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Pretendard-Medium,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 12px;
+  --wwwdigimonmasterscom-semantic-link-line-height: 36px;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 500;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Pretendard-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 12px;
+  --wwwdigimonmasterscom-semantic-link-line-height: normal;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 400;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Pretendard-Regular,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 14px;
+  --wwwdigimonmasterscom-semantic-link-line-height: normal;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 400;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Pretendard-SemiBold,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 14px;
+  --wwwdigimonmasterscom-semantic-link-line-height: normal;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 600;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Pretendard-SemiBold,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 16px;
+  --wwwdigimonmasterscom-semantic-link-line-height: normal;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 600;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Pretendard-Medium,
+    sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 17px;
+  --wwwdigimonmasterscom-semantic-link-line-height: 36px;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 500;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+  --wwwdigimonmasterscom-semantic-link-font-family: Roboto-Regular, sans-serif;
+  --wwwdigimonmasterscom-semantic-link-font-size: 8px;
+  --wwwdigimonmasterscom-semantic-link-line-height: normal;
+  --wwwdigimonmasterscom-semantic-link-font-weight: 400;
+  --wwwdigimonmasterscom-semantic-link-font-style: normal;
+
+  /* Effects */
+}

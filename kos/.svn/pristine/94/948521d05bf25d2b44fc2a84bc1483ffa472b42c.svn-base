@@ -1,0 +1,175 @@
+.kiosk-3-1-1-1,
+.kiosk-3-1-1-1 * {
+  box-sizing: border-box;
+}
+.kiosk-3-1-1-1 {
+  background: #ffffff;
+  height: 1696px;
+  position: relative;
+  overflow: hidden;
+}
+.kiosk-3-1-1__home-1 {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 802px;
+  top: 18px;
+}
+.kiosk-3-1-1__home-12 {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+  bottom: 0%;
+  top: 7%;
+  object-fit: cover;
+}
+.kiosk-3-1-1__div {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  right: -224%;
+  left: 98%;
+  width: 226%;
+  bottom: 3%;
+  top: 20%;
+  height: 76%;
+  text-decoration: none; /* 밑줄 제거 */
+}
+.kiosk-3-1-1-1__div {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  position: absolute;
+  right: -224%;
+  left: 98%;
+  width: 226%;
+  bottom: 3%;
+  top: 20%;
+  height: 76%;
+  text-decoration: none; /* 밑줄 제거 */
+  white-space: nowrap; /* 한 줄로 표시 */
+}
+.kiosk-3-1-1-1__div2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 410px);
+  bottom: 78%;
+  top: 17%;
+  height: 4%;
+}
+.kiosk-3-1-1-1___0 {
+  color: #D50032;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 126px);
+  bottom: 78%;
+  top: 17%;
+  height: 4%;
+}
+.kiosk-3-1-1-1___00-000 {
+  color: #D50032;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% + 232px);
+  bottom: 78%;
+  top: 17%;
+  height: 4%;
+}
+.kiosk-3-1-1-1__div3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 30px);
+  bottom: 74%;
+  top: 17%;
+  height: 8%;
+}
+.kiosk-3-1-1-1__line-2 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px 0 0 0;
+  width: 878px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 439px);
+  top: 368px;
+}
+.kiosk-3-1-1-1__div4 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  position: absolute;
+  right: 32%;
+  left: 22%;
+  width: 56%;
+  bottom: 68%;
+  top: 29%;
+  height: 4%;
+}
+.kiosk-3-1-1-1___001 {
+  color: #007BFF;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 250px);
+  bottom: 62%;
+  top: 32%;
+  height: 5%;
+}
+.kiosk-3-1-1-1___1 {
+  width: 438px;
+  height: 438px;
+  position: absolute;
+  left: calc(50% - 230px);
+  top: 700px;
+  object-fit: cover;
+}
+.kiosk-3-1-1-1__div5 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 230px);
+  bottom: 20%;
+  top: 74%;
+  height: 8%;
+}
+.kiosk-3-1-1-1__div6 {
+  color: #D50032;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 300px);
+  bottom: 12%;
+  top: 84%;
+  height: 6%;
+}

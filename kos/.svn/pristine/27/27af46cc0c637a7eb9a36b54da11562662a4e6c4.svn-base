@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kos.product.dao.ProductDao">
+
+	<resultMap type= "com.kos.vo.product.ProductVO" id="productMap">
+		<result column="PRD_CODE" property="prdCode"/>
+		<result column="PRD_NAME" property="prdName"/>
+		<result column="CAT_CODE" property="catCode"/>
+		<result column="SELL_PRICE" property="sellPrice"/>
+		<result column="PRD_QTY" property="prdQty"/>
+		<result column="PRD_INDATE" property="prdIndt"/>
+		<result column="PRD_STATE" property="prdState"/>
+		<result column="VD_CODE" property="vdCode"/>
+		<result column="PRD_IMG" property="prdImg"/>
+		<result column="PRD_DESC" property="prdDesc"/>
+		<result column="CATEGORY_CODE" property="categoryCode"/>
+	</resultMap>
+	
+	<resultMap type= "com.kos.vo.buy.BuyVO" id="buyMap">
+		<result column="PRD_CODE" property="prdCode"/>
+		<result column="PRD_NAME" property="prdName"/>
+		<result column="SELL_PRICE" property="sellPrice"/>
+	</resultMap>
+	
+	<select id="selectProductList" resultMap="productMap">
+	    SELECT * 
+	    FROM T_PRD_INFO
+	    WHERE CAT_CODE LIKE CONCAT(#{categoryCode}, '%')
+	</select>
+	<select id="getProductitem" resultMap="buyMap">
+	  SELECT 
+	 	 PRD_CODE,
+	 	 PRD_NAME,
+	 	 PRD_IMG,
+	 	 SELL_PRICE
+	  FROM T_PRD_INFO 
+	  WHERE PRD_CODE in
+	  <foreach item="item" index="index" collection="buylist"
+	      open="(" separator="," close=")">
+	        #{item.prdCode}
+   	  </foreach>
+</select>
+	
+	
+</mapper>

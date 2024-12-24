@@ -1,0 +1,336 @@
+.kiosk-1-3,
+.kiosk-1-3 * {
+  box-sizing: border-box;
+}
+.kiosk-1-3 {
+  background: #ffffff;
+  height: 1696.91px;
+  position: relative;
+  overflow: hidden;
+}
+.kiosk-1-3__div {
+  text-align: center; /* 텍스트 중앙 정렬 */
+  font-family: "Pretendard-Bold", sans-serif; /* 폰트 패밀리 설정 */
+  font-size: 88px; /* 글자 크기 설정 */
+  font-weight: 700; /* 글자 두께 설정 (Bold) */
+  position: absolute; /* 절대 위치 지정 */
+  right: 14%; /* 오른쪽에서 14% 위치 설정 */
+  left: 14%; /* 왼쪽에서 14% 위치 설정 */
+  width: 72%; /* 너비를 72%로 설정 */
+  bottom: 88%; /* 아래에서 88% 위치 설정 */
+  top: 5%; /* 위쪽에서 5% 위치 설정 */
+  height: 6%; /* 높이를 6%로 설정 */
+}
+
+.div-span,
+.div-span2 {
+  display: inline; /* 요소를 인라인으로 설정하여 한 줄로 나열 */
+  color: #000000; /* 기본 글자 색상 */
+  font-family: "Pretendard-Bold", sans-serif; /* 폰트 패밀리 설정 */
+  font-size: 82px; /* 글자 크기 설정 (변경하지 않음) */
+  font-weight: 700; /* 글자 두께 설정 (Bold) */
+  margin: 0; /* 기본 마진 제거 */
+}
+
+.div-span {
+  letter-spacing: -8px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+
+.div-span2 {
+  color: #ae202a; /* 두 번째 글자 색상 설정 */
+  letter-spacing: -8px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+  margin-left: -18px; /* 왼쪽 여백을 음수로 설정하여 간격 줄이기 */
+}
+
+
+
+.kiosk-1-3__div2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 1.83%;
+  left: 6.57%;
+  width: 91.6%;
+  bottom: 79.87%;
+  top: 14.83%;
+  height: 5.3%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div3 {
+  color: #000000; /* 글자 색상 설정 */
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+  font-family: "Pretendard-Light", sans-serif; /* 폰트 패밀리 설정 */
+  font-size: 32px; /* 글자 크기 설정 (소수점 제거) */
+  font-weight: 300; /* 글자 두께 설정 (Light) */
+  position: absolute; /* 절대 위치 지정 */
+  right: 6%; /* 오른쪽 위치 조정 (소수점 제거) */
+  left: 6.57%; /* 왼쪽 위치 설정 */
+  width: 87%; /* 너비 조정 */
+  bottom: 70%; /* 아래 위치 조정 (소수점 제거) */
+  top: 24%; /* 위쪽 위치 설정 */
+  height: 5%; /* 높이 조정 */
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 13.25%;
+  left: 6.57%;
+  width: 80.18%;
+  bottom: 60.56%;
+  top: 34.14%;
+  height: 5.3%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 6.81%;
+  left: 6.57%;
+  width: 86.62%;
+  bottom: 50.9%;
+  top: 43.79%;
+  height: 5.3%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 13.25%;
+  left: 6.57%;
+  width: 80.18%;
+  bottom: 41.25%;
+  top: 53.45%;
+  height: 5.3%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div7 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 9.15%;
+  left: 6.57%;
+  width: 84.28%;
+  bottom: 34.24%;
+  top: 63.1%;
+  height: 2.65%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div8 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 7.78%;
+  left: 6.57%;
+  width: 85.64%;
+  bottom: 24.7%;
+  top: 70%;
+  height: 5.3%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div9 {
+  width: 102.4px;
+  height: 70.22px;
+  position: absolute;
+  left: 456.41px;
+  top: 1588.66px;
+}
+.kiosk-1-3__div10 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Medium", sans-serif;
+  font-size: 58.514286041259766px;
+  font-weight: 500;
+  position: absolute;
+  right: 0.39%;
+  left: 0%;
+  width: 99.61%;
+  bottom: 0.31%;
+  top: 0%;
+  height: 99.69%;
+}
+.kiosk-1-3__rectangle-31 {
+  background: #007BFF;
+  border-radius: 25px;
+  width: 409.6px;
+  height: 146.29px;
+  position: absolute;
+  left: calc(50% - -29.26px);
+  top: calc(50% - -649.51px);
+}
+.kiosk-1-3__component-2 {
+  width: 409.6px;
+  height: 146.29px;
+  position: absolute;
+  left: 73.14px;
+  top: 1497.97px;
+}
+.kiosk-1-3__rectangle-312 {
+  background: #C0C0C0;
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.kiosk-1-3__div11 {
+  width: 25%;
+  height: 48%;
+  position: absolute;
+  right: 37.14%;
+  left: 37.86%;
+  bottom: 26%;
+  top: 26%;
+}
+.kiosk-1-3__div12 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.kiosk-1-3__div13 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: absolute;
+  right: -5.44%;
+  left: -8.82%;
+  width: 114.26%;
+  bottom: -13.93%;
+  top: 0%;
+  height: 113.93%;
+  letter-spacing: -5px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3__div14 {
+  width: 10%;
+  height: 4.14%;
+  position: absolute;
+  right: 22.29%;
+  left: 67.71%;
+  bottom: 5.34%;
+  top: 90.52%;
+}
+.kiosk-1-3__div15 {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Medium", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  position: absolute;
+  right: -64.06%;
+  left: -63.48%;
+  width: 227.54%;
+  bottom: -13.93%;
+  top: 0%;
+  height: 113.93%;
+  letter-spacing: -5px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}
+.kiosk-1-3___1 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 213.58px;
+  object-fit: cover;
+}
+.kiosk-1-3___2 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 377.42px;
+  object-fit: cover;
+}
+.kiosk-1-3___3 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 541.26px;
+  object-fit: cover;
+}
+.kiosk-1-3___4 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 705.1px;
+  object-fit: cover;
+}
+.kiosk-1-3___5 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 868.94px;
+  object-fit: cover;
+}
+.kiosk-1-3___6 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 1032.78px;
+  object-fit: cover;
+}
+.kiosk-1-3___7 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 1149.81px;
+  object-fit: cover;
+}
+.kiosk-1-3___8 {
+  width: 117.03px;
+  height: 117.03px;
+  position: absolute;
+  left: -8.78px;
+  top: 1313.65px;
+  object-fit: cover;
+}
+.kiosk-1-3__div16 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+  right: 10.03%;
+  left: 6.57%;
+  width: 83.4%;
+  bottom: 15.04%;
+  top: 79.66%;
+  height: 5.3%;
+  letter-spacing: -2px; /* 자간 줄이기 (값을 조정하여 간격 조절) */
+}

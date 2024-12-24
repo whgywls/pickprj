@@ -1,0 +1,238 @@
+.kiosk-3-1-1,
+.kiosk-3-1-1 * {
+  box-sizing: border-box;
+}
+.kiosk-3-1-1 {
+  background: #ffffff;
+  height: 1696px;
+  position: relative;
+  overflow: hidden;
+}
+.kiosk-3-1-1__home-1 {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 802px;
+  top: 18px;
+}
+.kiosk-3-1-1__home-12 {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+  bottom: 0%;
+  top: 7%;
+  object-fit: cover;
+}
+.kiosk-3-1-1__div {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  right: -224%;
+  left: 98%;
+  width: 226%;
+  bottom: 3%;
+  top: 20%;
+  height: 76%;
+  text-decoration: none; /* 밑줄 제거 */
+}
+.kiosk-3-1-1__div2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 410px);
+  bottom: 78%;
+  top: 17%;
+  height: 4%;
+}
+.kiosk-3-1-1__ic {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 272px);
+  bottom: 20%;
+  top: 78%;
+  height: 3%;
+}
+.kiosk-3-1-1__div3 {
+  color: #D50032;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 390px);
+  bottom: 17%;
+  top: 82%;
+  height: 2%;
+}
+.kiosk-3-1-1___00-60 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 44px);
+  bottom: 10%;
+  top: 88%;
+  height: 2%;
+}
+.kiosk-3-1-1___0 {
+  color: #D50032;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 126px);
+  bottom: 78%;
+  top: 17%;
+  height: 4%;
+}
+.kiosk-3-1-1___00-000 {
+  color: #D50032;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% + 230px);
+  bottom: 78%;
+  top: 17%;
+  height: 4%;
+}
+.kiosk-3-1-1__div4 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 30px);
+  bottom: 74%;
+  top: 17%;
+  height: 8%;
+}
+.kiosk-3-1-1__line-2 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px 0 0 0;
+  width: 878px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 439px);
+  top: 369px;
+}
+.kiosk-3-1-1___1 {
+  width: 456px;
+  height: 456px;
+  position: absolute;
+  left: calc(50% - 228px);
+  top: 620px;
+  object-fit: cover;
+}
+.kiosk-3-1-1__div5 {
+  color: #007BFF;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 32%;
+  left: 32%;
+  width: 38%;
+  bottom: 64%;
+  top: 34%;
+  height: 2%;
+}
+.kiosk-3-1-1__group-2 {
+  position: absolute;
+  inset: 0;
+}
+.kiosk-3-1-1__group-1 {
+  width: 146px;
+  height: 38px;
+  position: static;
+}
+.kiosk-3-1-1__div6 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  right: 48%;
+  left: 41%;
+  width: 10%;
+  bottom: 28%;
+  top: 64.5%;
+  height: 2%;
+}
+.kiosk-3-1-1___12 {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: calc(50% - 132px);
+  top: 1092px;
+  object-fit: cover;
+}
+.kiosk-3-1-1___60 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  right: 38%;
+  left: 56%;
+  width: 6%;
+  bottom: 34%;
+  top: 64.5%;
+  height: 2%;
+}
+.kiosk-3-1-1__group-3 {
+  position: absolute;
+  inset: 0;
+}
+.kiosk-3-1-1__rectangle-16 {
+  background: #000000; /* 사각형 배경 색상 */
+  border-radius: 15px; /* 둥근 모서리 */
+  width: 220px; /* 너비 */
+  height: 58px; /* 높이 */
+  position: absolute; /* 위치 설정 */
+  left: 404px; /* 위치 조정 */
+  top: 1156px; /* 위치 조정 */
+  display: flex; /* 내부 요소 정렬을 위해 flex 사용 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  text-decoration: none; /* 링크 밑줄 제거 */
+  color: #ffffff; /* 텍스트 색상 */
+  font-size: 34px; /* 폰트 크기 증가 */
+  transition: background-color 0.3s; /* 호버 시 배경색 전환 효과 */
+}
+
+.kiosk-3-1-1__rectangle-16:hover {
+  background-color: #9c1b26; /* 호버 시 배경 색상 변경 */
+}
+.kiosk-3-1-1__div7 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  position: absolute;
+  left: 477px;
+  top: 1162px;
+}

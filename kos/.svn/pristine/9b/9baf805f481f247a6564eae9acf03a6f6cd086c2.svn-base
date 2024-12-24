@@ -1,0 +1,259 @@
+.kiosk-1,
+.kiosk-1 * {
+  box-sizing: border-box;
+}
+.kiosk-1 {
+  background: #ffffff;
+  height: 1696px;
+  position: relative;
+  overflow: hidden;
+}
+.kiosk-1__frame-1 {
+  background: #C0C0C0;
+  width: 1024px;
+  height: 810px;
+  position: absolute;
+  left: 0px;
+  top: 886px;
+  overflow: hidden;
+  border-top-left-radius: 50px; /* 왼쪽 위 모서리 둥글게 */
+  border-top-right-radius: 50px; /* 오른쪽 위 모서리 둥글게 */
+}
+.kiosk-1__button-1 {
+  background: #ffffff;
+  border-radius: 14px;
+  width: 550px;
+  height: 198px;
+  position: absolute;
+  left: 236px;
+  top: 94px;
+  overflow: hidden;
+}
+.kiosk-1__rectangle-1 {
+  background: #f6fafd;
+  border-radius: 14px 0 0 14px;
+  width: 176px;
+  height: 198px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.kiosk-1__div {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 34px);
+  top: 64px;
+}
+.kiosk-1__button-2 {
+  background: #ffffff;
+  border-radius: 14px;
+  width: 550px;
+  height: 198px;
+  position: absolute;
+  left: 236px;
+  top: 308px;
+  overflow: hidden;
+}
+.kiosk-1__rectangle-3 {
+  background: #f6fafd;
+  border-radius: 14px 0 0 14px;
+  width: 176px;
+  height: 198px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.kiosk-1__div2 {
+  width: 77px;
+  height: 72px;
+  position: absolute;
+  left: 48px;
+  top: 58px;
+  object-fit: cover;
+}
+.kiosk-1__div99 {
+  width: 63px;
+  height: 66px;
+  position: absolute;
+  left: 54px;
+  top: 64px;
+  object-fit: cover;
+}
+.kiosk-1__div3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 38px);
+  top: 67px;
+}
+.kiosk-1__button-3 {
+  background: #ffffff;
+  border-radius: 14px;
+  width: 550px;
+  height: 198px;
+  position: absolute;
+  left: 236px;
+  top: 520px;
+  overflow: hidden;
+}
+.kiosk-1__rectangle-2 {
+  background: #f6f9fd;
+  border-radius: 14px 0 0 14px;
+  width: 176px;
+  height: 198px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.kiosk-1__div4 {
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 64px);
+  top: 67px;
+}
+.kiosk-1__div5 {
+  width: 58px;
+  height: 79px;
+  position: absolute;
+  left: 290px;
+  top: 150px;
+  object-fit: cover;
+}
+.kiosk-1__div6 {
+  width: 322px;
+  height: 46px;
+  position: absolute;
+  left: 673px;
+  top: 29px;
+}
+.kiosk-1___1 {
+  width: 24%;
+  height: 100%;
+  position: absolute;
+  right: 76%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.kiosk-1___12 {
+  width: 24%;
+  height: 100%;
+  position: absolute;
+  right: 51%;
+  left: 25%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.kiosk-1___13 {
+  width: 24%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 76%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.kiosk-1___14 {
+  width: 24%;
+  height: 100%;
+  position: absolute;
+  right: 25%;
+  left: 51%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.kiosk-1___15 {
+  width: 76px;
+  height: 58px;
+  position: absolute;
+  left: 29px;
+  top: 23px;
+}
+.kiosk-1__text {
+  width: 658px;
+  height: 456px;
+  position: absolute;
+  left: 181px;
+  top: 266px;
+}
+.kiosk-1__div7 {
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 80px; /* 폰트 크기 줄임 */
+  font-weight: 700; /* BOLD */
+}
+.div-7-span {
+  color: #000000; /* 검은색 */
+}
+.div-7-span2 {
+  color: #007BFF; /* 빨간색 */
+}
+.div-7-span3 {
+  color: #000000; /* 검은색 */
+}
+.kiosk-1__oo {
+  text-align: center;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  right: 0.17%;
+  left: 0%;
+  width: 99.83%;
+  bottom: -0.24%;
+  top: 87.18%;
+  height: 13.06%;
+}
+.oo-span {
+  color: #007BFF;
+}
+.oo-span2 {
+  color: #000000; /* 검은색 */
+}
+.kiosk-1__ellipse-1,
+.kiosk-1__ellipse-2,
+.kiosk-1__ellipse-3,
+.kiosk-1__ellipse-4 {
+  background: #007BFF;
+  border-radius: 50%;
+  width: 2.22%;
+  height: 3.21%;
+  position: absolute;
+}
+
+/* 위치 조정 */
+.kiosk-1__ellipse-1 {
+  right: 49.33%;
+  left: 48.44%;
+  bottom: 100%; /* 위로 이동 */
+}
+.kiosk-1__ellipse-2 {
+  right: 38.67%;
+  left: 59.11%;
+  bottom: 100%; /* 위로 이동 */
+}
+.kiosk-1__ellipse-3 {
+  right: 23.11%;
+  left: 78.67%;
+  bottom: 100%; /* 위로 이동 */
+}
+.kiosk-1__ellipse-4 {
+  right: 10.67%;
+  left: 90.11%;
+  bottom: 100%; /* 위로 이동 */
+}
